@@ -2,12 +2,12 @@
 import './App.css';
 import Test from './component/Test';
 import Palette from './component/Palette';
+import NavBar from './component/NavBar';
 
 function App() {
   return (
     <div >
-      <h1>test</h1>
-      <Test/>
+      <NavBar/>
       <Palette/>
     </div>
   );

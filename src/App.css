@@ -2,6 +2,7 @@
 
 /* 1. Root */
 /* 2. Palette */
+/* 3. NavBar */
 
 
 /* 1 Root*/
@@ -25,7 +26,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+    margin-top: 70px;
     
 }
 
@@ -75,7 +76,55 @@
 
 /* -------------------------------------------------------------------------------------------------- */
 
-/* */
+/* 3. NavBar */
+
+.navBar{
+    background-color: white;
+    border-bottom: solid 1px black;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    
+  }
+  
+  .navMenu {
+    display: inline-flex;
+    justify-content: center;
+  }
+  
+  
+  
+  #title {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--ultimate-Gray);
+    
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--ultimate-Gray);
+  }
+  
+  
+  
+  #logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+    margin-right: 2px;
+    margin-top: 15px;
+  }
 
 /* -------------------------------------------------------------------------------------------------- */
 
