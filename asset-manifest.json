@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/worldcompany/static/css/main.0f40f6d1.chunk.css",
-    "main.js": "/worldcompany/static/js/main.f947f7a8.chunk.js",
-    "main.js.map": "/worldcompany/static/js/main.f947f7a8.chunk.js.map",
+    "main.css": "/worldcompany/static/css/main.89ecb7c6.chunk.css",
+    "main.js": "/worldcompany/static/js/main.6b10a178.chunk.js",
+    "main.js.map": "/worldcompany/static/js/main.6b10a178.chunk.js.map",
     "runtime-main.js": "/worldcompany/static/js/runtime-main.f616e95b.js",
     "runtime-main.js.map": "/worldcompany/static/js/runtime-main.f616e95b.js.map",
     "static/js/2.3e625e30.chunk.js": "/worldcompany/static/js/2.3e625e30.chunk.js",
     "static/js/2.3e625e30.chunk.js.map": "/worldcompany/static/js/2.3e625e30.chunk.js.map",
     "index.html": "/worldcompany/index.html",
-    "static/css/main.0f40f6d1.chunk.css.map": "/worldcompany/static/css/main.0f40f6d1.chunk.css.map",
+    "static/css/main.89ecb7c6.chunk.css.map": "/worldcompany/static/css/main.89ecb7c6.chunk.css.map",
     "static/js/2.3e625e30.chunk.js.LICENSE.txt": "/worldcompany/static/js/2.3e625e30.chunk.js.LICENSE.txt",
+    "static/media/charles7.0daff5a8.jpeg": "/worldcompany/static/media/charles7.0daff5a8.jpeg",
     "static/media/guillaumeNormandie.ab18f4d6.jpg": "/worldcompany/static/media/guillaumeNormandie.ab18f4d6.jpg",
     "static/media/map.4a117448.jpeg": "/worldcompany/static/media/map.4a117448.jpeg",
     "static/media/philippeAuguste.14b4de7c.jpg": "/worldcompany/static/media/philippeAuguste.14b4de7c.jpg"
@@ -17,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.f616e95b.js",
     "static/js/2.3e625e30.chunk.js",
-    "static/css/main.0f40f6d1.chunk.css",
-    "static/js/main.f947f7a8.chunk.js"
+    "static/css/main.89ecb7c6.chunk.css",
+    "static/js/main.6b10a178.chunk.js"
   ]
 }
