@@ -44,6 +44,17 @@ export const civNewData = [
         currency:"solidus",
         img_url:"https://static.wikia.nocookie.net/ageofempires/images/2/27/CivIcon-Byzantines.png",
         battlescore: "D",
+        army_type: "Defensive",
+        unique_unit: "Cataphract",
+        unique_tech:  "Logistica",
+        team_bonus: "Monks +50% heal speed",
+        civilization_bonus: [
+            "Buildings (except gates) have +10% HP in Dark Age / +20% HP in Feudal Age / +30% in Castle Age / +40% in Imperial Age",
+            "Spearman skirmisher and camel lines cost 25% less",
+            "Fire Ships attack 20% faster",
+            "Imperial Age costs -33%",
+            "Town Watch is free"
+            ]
         },
 
     {
@@ -54,6 +65,16 @@ export const civNewData = [
         currency:"statère",
         img_url:"https://static.wikia.nocookie.net/ageofempires/images/5/59/CivIcon-Celts.png",
         battlescore: "C",
+        army_type: "Infantry",
+        unique_unit: "Woad Raider",
+        unique_tech: "Furor Celtica",
+        team_bonus: "Siege Workshops work 20% faster",
+        civilization_bonus: [
+            "Infantry moves 15% faster",
+            "Lumberjacks work 15% faster",
+            "Siege weapons reload 20% faster",
+            "Sheep cannot be stolen if within one Celt unit's line of sight"
+            ]
         },
 
     {
@@ -63,6 +84,16 @@ export const civNewData = [
         currency:"bei",
         img_url:"https://static.wikia.nocookie.net/ageofempires/images/c/cc/CivIcon-Chinese.png",
         battlescore: "A",
+        army_type: "Archer",
+        unique_unit: "Chu Ko Nu",
+        unique_tech: "Rocketry",
+        team_bonus: "Farms provide +45 food",
+        civilization_bonus: [
+            "Start game with 3 extra villagers but -50 wood and -200 food",
+            "Technologies cost -10% in Feudal Age/ -15% in Castle Age/-20% in Imperial Age",
+            "Town Centers support 10 population instead of 5",
+            "Demolition Ships have +50% HP"
+            ]
         },
 
     {
@@ -70,8 +101,17 @@ export const civNewData = [
         name: "Franks",
         population:"16 250 000", 
         currency:"écu",
-        img_url:"../blasons/CivIcon-Franks.png",
+        img_url:"https://static.wikia.nocookie.net/ageofempires/images/1/1b/CivIcon-Franks.png",
         battlescore: "B",
+        army_type: "Cavalry",
+        unique_unit: "Throwing Axeman",
+        unique_tech: "Bearded Axe",
+        team_bonus: "Knights have +2 line of sight",
+        civilization_bonus: [
+            "Castles are 25% cheaper",
+            "Knights have +20% HP",
+            "Farm upgrades are free (Mill is required to receive bonus)"
+            ]
         },
 
     {
@@ -79,8 +119,19 @@ export const civNewData = [
         name: "Goths",
         population:"23 000 000", 
         currency:"goth",
-        img_url:"../blasons/CivIcon-Goths.png",
+        img_url:"https://static.wikia.nocookie.net/ageofempires/images/2/24/CivIcon-Goths.png",
         battlescore: "B",
+        army_type: "Infantry",
+        unique_unit: "Huskarl",
+        unique_tech:"Anarchy",
+        team_bonus: "Barracks operate 20% faster",
+        civilization_bonus: [
+            "Infantry cost 35% less (starting in Feudal Age)",
+            "Infantry have +1 attack against buildings",
+            "Villagers have +5 attack versus wild boar",
+            "Hunters carry +15 meat",
+            "+10 to population limit in Imperial Age"
+            ]
         },
 
     {
@@ -207,14 +258,6 @@ export const civNewData = [
         currency:"birr",
         img_url:"../blasons/CivIcon-Ethiopians.png",
         battlescore: "D",
-        },
-
-    {
-        id: 22,
-        name: "Goths",
-        population:1000000, 
-        currency:"a",
-        img_url:"",
         },
 
     {
