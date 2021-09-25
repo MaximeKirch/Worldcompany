@@ -587,9 +587,9 @@
   
   .bandeauH1 {
     padding: 100px 0;
-    font: 44px;
     font-family: var(--primary-font);
     text-align: center;
+    font-size: xxx-large;
     color: var(--mellow-Buff);
   }
 
