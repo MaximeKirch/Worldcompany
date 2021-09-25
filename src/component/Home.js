@@ -1,0 +1,41 @@
+
+import "../App.css"
+import Test from './Test';
+import Palette from './Palette';
+import NavBar from './NavBar';
+import Header from './Header';
+import Map from './Map';
+import Testimonials from './/Testimonials';
+import Footer from './Footer';
+import Contact from './Contact';
+import Logo from './Logo';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom"
+
+
+function Home() {
+
+  
+  return (
+   
+    <div className='App'>
+      <Logo />
+      <div className="centerContainer">
+        {/* <NavBar/> */}
+        <Palette/>
+        <Header/>
+        <Map/>
+        <Testimonials/>
+      </div>
+      <Footer/>
+    </div>
+
+   
+  );
+}
+
+export default Home;

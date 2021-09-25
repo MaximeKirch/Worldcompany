@@ -140,6 +140,12 @@
   background: white;
   border-radius: 25px;
 }
+
+.modal-toggle {
+  position: absolute;
+  z-index: 99;
+  top: 0;
+}
 /* INDEX OF CSS FILE */ 
 
 /* 1. Root */

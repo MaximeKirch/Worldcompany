@@ -1,12 +1,13 @@
 import React from 'react'
+import ReactDom from 'react-dom';
 import '../App.css'
+import Logo from './Logo';
 
-export default function Contact() {
-
-    function message() {
-        alert('Merci pour votre message !');
-    }
-    return (
+const Contact = ({isShowing, hide}) => 
+isShowing 
+? ReactDom.createPortal( 
+        <>
+        <Logo />
         <div className="formContainer">
                 <form>
                     <label id='contact'>Contactez-nous !</label>
@@ -19,10 +20,16 @@ export default function Contact() {
                         <label>Votre message :</label>
                         <textarea placeholder='Simplement une petite suggestion...' rows="20" required></textarea>
 
-                        <button id='formBtn' type='submit' onclick={() => message}>Envoyer</button>
+                        <button id='formBtn' type='submit' onclick={() => alert('Merci pour votre message !')}>Envoyer</button>
 
                     </div>   
                 </form>
         </div>
+        </>,
+        document.body
     )
-}
+    : null;
+
+    export default Contact;
+
+
