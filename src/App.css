@@ -501,6 +501,30 @@
   border-color: var(--burnt-Henna);
 }
 
+.infoBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+
+.blockLeft {
+  margin-right: 20px;
+}
+
+.infoCenter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infoSpec {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
 /* -------------------------------------------------------------------------------------------------- */
 
 /* */

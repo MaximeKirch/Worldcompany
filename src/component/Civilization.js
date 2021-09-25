@@ -9,7 +9,7 @@ const Civilization = (props) => {
     return (
         <div>
             
-        <div>
+        <div className="infoCenter">
             
             <div className="infoHeader">
 
@@ -35,7 +35,7 @@ const Civilization = (props) => {
             </div>
 
                     <p>Battle Score: {item.battlescore}</p>
-            
+                <div className="infoSpec">            
                     <ul> Spécificités : </ul>
 
                     {item.civilization_bonus.map((bonus) => {
@@ -45,7 +45,7 @@ const Civilization = (props) => {
                     <li>{bonus}</li>
         )       
         })}
-                
+                </div>
 
             
         </div>
