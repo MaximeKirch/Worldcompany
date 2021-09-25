@@ -2,6 +2,7 @@ import React from 'react'
 import philippeAuguste from '../assets/philippeAuguste.jpg'
 import guillaumeNormandie from '../assets/guillaumeNormandie.jpg'
 import charles7 from '../assets/charles7.jpeg'
+import leonidas from '../assets/leonidas.jpg'
 import '../App.css'
 import '../App.css'
 
@@ -48,6 +49,16 @@ function Testimonials() {
                                 <img id="avatar" src={guillaumeNormandie} alt=""/>
                                 <span className="vainqueur">Guillaume de Normandie - </span>
                                 <span> 1066</span>
+                            </div>
+                    <div>⚔️ ⚔️ ⚔️</div>
+                    </div>
+
+                    <div className='testimonialContainer'>
+                        <p className='testimonialText'>Avec Battle changer nous n'aurions jamais fini en slip et en Slowmotion dans un film</p>
+                            <div className='profileTestimonial'>
+                                <img id="avatar" src={leonidas} alt=""/>
+                                <span className="vainqueur">Léonidas - </span>
+                                <span> -480 avt J. -C.</span>
                             </div>
                     <div>⚔️ ⚔️ ⚔️</div>
                     </div>
