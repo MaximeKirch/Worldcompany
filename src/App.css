@@ -3,11 +3,19 @@
 /* 1. Root */
 /* 2. Palette */
 /* 3. NavBar */
-
+/* 4. Header */
+/* 5. Map */
 
 /* 1 Root*/
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Source+Sans+Pro:wght@300;400&display=swap');
+
 :root {
+
+    --primary-font: 'Playfair Display', serif;;
+    --secondary-font: 'Source Sans Pro', sans-serif;
+
+    
   
     --living-Coral: rgb(243,111,99);
     --burnt-Henna: rgb(127,58,50);
@@ -104,16 +112,16 @@
   
   
   #title {
-    font-family: var(--secondary-font);
+    font-family: var(--primary-font);
     font-weight: 700;
     font-size: 32px;
-    color: var(--ultimate-Gray);
+    color: var(--);
     
   }
   
   a {
     text-decoration: none;
-    color: var(--ultimate-Gray);
+    color: var(--);
   }
   
   
@@ -128,7 +136,121 @@
 
 /* -------------------------------------------------------------------------------------------------- */
 
-/* */
+/* 4. Header */
+.HeaderContainer {
+    display: flex;
+    width: auto;
+    flex-wrap: nowrap;
+    
+  }
+  
+  
+  .HeaderTitle {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    color: var(--ultimate-Gray);
+    font-family: var(--primary-font);
+    font-size: 24px;
+  }
+  
+  .Header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .pHeader {
+  text-align: justify;
+  width: 80%;
+  font-family:var(--secondary-font);
+  font-weight: 400;
+  }
+  
+  #mHeader{
+      background-color:var(--light-illuminating);
+      color: var(--ultimate-Gray);
+      padding: 20px;
+  }
+
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* 5. Map */
+.backgroundImage {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  #hero {
+    position: relative;
+    width: 100%;
+    max-width: auto;
+    max-height: auto;
+    height: auto;
+    z-index: -1;
+  }
+  
+  
+  
+  
+/* -------------------------------------------------------------------------------------------------- */
+
+/* 6. Testimonials Component */
+
+
+  .testimonialMain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .testimonialContainer {
+    display: flex;
+    flex-direction: ;
+    width: 80%;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-top: 0.5px solid rgba(245,223,77,0.3);
+    border-bottom: 0.5px solid rgba(245,223,77,0.3);
+    margin-top: 100px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .testimonialText {
+    color: ;
+    font: var(--secondary-font);
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+  }
+
+  
+
+  .profileTestimonial {
+    display: flex;
+    width: 250px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    justify-content: space-around;
+    background: rgba(175,164,206,0.4);
+  }
+
+  .profileTestimonial p {
+    color: var(--illuminating);
+    font-family: var(--secondary-font);
+    font-weight: 300;
+  }
+
+  #avatar {
+    border-radius: 25px;
+    width: 50px;
+    height: auto;
+  }
+
+
 
 /* -------------------------------------------------------------------------------------------------- */
 
@@ -156,11 +278,64 @@
 
 /* -------------------------------------------------------------------------------------------------- */
 
-/* */
-
-/* -------------------------------------------------------------------------------------------------- */
-
-/* */
-
-/* -------------------------------------------------------------------------------------------------- */
-
+/* Z.Footer */
+.footerContainer{
+    display :flex;
+    justify-content: center;
+    bottom: 0;
+  }
+  
+  .footerRow{
+    display :flex;
+    justify-content: space-around ;  
+    width: 50%;
+  }
+  
+  .footerMain{
+    background-color: white;
+    width: 100%;
+    border-top: solid 1px black;
+  }
+  
+  .footerNoRow{
+    justify-content: center;
+    padding : 20px;
+    }
+  
+  .lastFooter{
+    text-align: center;
+    
+  }
+  
+  .footerList{
+    list-style: none;
+    text-align: left;
+    padding: 0;
+  }
+  
+  .col{
+    margin: 20px;
+  }
+  
+  .hrFooter{
+    border :0;
+    height: 1px;
+  background-color : var(--illuminating);
+  }
+  
+  i{
+    background-color : var(--illuminating);
+  }
+  
+    
+  .footerList{
+    line-height: 2;
+    font-family: var(--secondary-font);
+  }
+  
+  .h3Footer{
+    font-family: var (--primary-font);
+    text-align: center;
+  }
+  
+  /* -------------------------------------------------------------------------------------------------- */
