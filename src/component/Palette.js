@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import '../App.css';
 
 
@@ -21,7 +21,7 @@ function Palette() {
                 <p className="paletteName" id="coral-Sands">coral-Sands</p>
             </div>
             <div className="palette">
-                <p className="paletteName" id="sunkist-Coral">--sunkist-Coral</p>
+                <p className="paletteName" id="sunkist-Coral">sunkist-Coral</p>
             </div>
             <div className="palette">
                 <p className="paletteName" id="candlelight-Peach">candlelight-Peach</p>

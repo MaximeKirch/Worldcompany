@@ -1,4 +1,5 @@
-import react from "react";
+
+import React from "react";
 import '../App.css';
 import map from '../assets/map.jpeg'
 
