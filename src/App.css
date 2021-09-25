@@ -485,8 +485,28 @@
 
 /* -------------------------------------------------------------------------------------------------- */
 
-/* */
-
+/* Bandeau */
+.bandeauHeader {
+    position: relative;
+    Height: 300px;
+    background-image: linear-gradient(#7F3A32,#CFAB7F );
+  }
+  
+  .bandeauH1 {
+    padding: 100px 0;
+    font: 44px;
+    font-family: var(--primary-font);
+    text-align: center;
+    color: var(--mellow-Buff);
+  }
+  
+    
+  Svg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+  }
 /* -------------------------------------------------------------------------------------------------- */
 
 /* Z.Footer */
