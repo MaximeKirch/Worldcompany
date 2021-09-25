@@ -23,6 +23,7 @@
 
   body{
       background-color: var(--mellow-Buff);
+      color: var(--burnt-Henna);
   }
 
 /* INDEX */ 
@@ -416,7 +417,7 @@
     padding: 10px 0px;
     border-radius: 10px;
     justify-content: center;
-    background: rgba(175,164,206,0.4);
+    background: var(--coral-Sands);
   }
 
   .profileTestimonial p {
