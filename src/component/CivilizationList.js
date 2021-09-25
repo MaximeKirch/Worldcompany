@@ -33,7 +33,7 @@ const CivilizationList = () => {
         </div>
         
         <div className="infoContent">
-            <select value={selectedOption} onChange={handleOption}>
+            <select className="select" value={selectedOption} onChange={handleOption}>
                 <option>Aztecs</option>
                 <option>Britons</option>
                 <option>Byzantines</option>
