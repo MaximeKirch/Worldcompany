@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { civNewData } from '../data/civNewData';
 import Civilization from './Civilization';
 
@@ -12,6 +12,13 @@ const CivilizationList = () => {
         let option = event.target.value;
         setSelectedOption(option);
     }
+
+    const [dataCiv, setDataCiv] = useState(null);
+    useEffect(()=> {
+        fetch("https://age-of-empires-2-api.herokuapp.com/api/v1/civilization/4")
+        .then  ((resp)=> resp.json())
+        .then ((data) => setDataCiv(data))
+    }, [])
     
     return (
         <div className="infoContent">
@@ -48,6 +55,15 @@ const CivilizationList = () => {
                 <option>Vietnamese</option>
 
             </select>
+
+            {
+                dataCiv != null &&
+                <>
+                <h2>{dataCiv.name}</h2>
+                <p>{dataCiv.civilization_bonus}</p>
+                </>
+            }
+            
             <div>
             {
                     civilizations
