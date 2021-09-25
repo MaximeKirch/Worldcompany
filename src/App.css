@@ -497,6 +497,16 @@
 .infoHeader img {
   width:50%;
   height: 50%;
+<<<<<<< HEAD
+=======
+}
+
+.infoHeader > h2 {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-style: italic;
+  font-size: 64px;
+>>>>>>> a5e79f1bf349f3558d1d98d19607dc6e09a20413
 }
 
 .infoContent select {
