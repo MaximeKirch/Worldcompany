@@ -1,6 +1,8 @@
 import React from 'react'
 import philippeAuguste from '../assets/philippeAuguste.jpg'
 import guillaumeNormandie from '../assets/guillaumeNormandie.jpg'
+import charles7 from '../assets/charles7.jpeg'
+import '../App.css'
 import '../App.css'
 
 function Testimonials() {
@@ -17,6 +19,15 @@ function Testimonials() {
             </div>          
         </div>
                 <div className='testimonialMain'>
+
+                <div className='testimonialContainer'>
+                        <p className='testimonialText'>Grace à BattleChanger Henri VI a connu la défaite à Castillon</p>
+                            <div className='profileTestimonial'>
+                                <img id="avatar" src={charles7} alt=""/>
+                                <span>Charles VII - </span>
+                                <span> 1453</span>
+                            </div>
+                    </div>
                     
                     <div className='testimonialContainer'>
                         <p className='testimonialText'>Nous avons gagné à Bouvines contre l'empereur Otton IV !!!! Heureusement qu'il n'utilisait pas BattleChanger !</p>
@@ -35,6 +46,8 @@ function Testimonials() {
                                 <span> 1066</span>
                             </div>
                     </div>
+
+                    
                     
                     
                     
