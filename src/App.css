@@ -497,6 +497,16 @@
 .infoHeader img {
   width:50%;
   height: 50%;
+<<<<<<< HEAD
+=======
+}
+
+.infoHeader > h2 {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-style: italic;
+  font-size: 64px;
+>>>>>>> 2bf374f2cd8cd104d8f329921ae3c93a261a94b7
 }
 
 .infoContent select {
@@ -511,9 +521,17 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   margin-bottom: 20px;
   margin-top: 20px;
 
+}
+
+#battleScore {
+  font-size: 40px;
+  font-family: var(--primary-font);
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .blockLeft {
@@ -576,6 +594,10 @@
     font-family: var(--primary-font);
     text-align: center;
     color: var(--mellow-Buff);
+  }
+
+  .bandeau > h2 {
+    font-size: 42px;
   }
   
     
