@@ -24,23 +24,17 @@ const Civilization = (props) => {
             <p>Meilleure techno: {item.unique_tech}</p>
             <p>Point fort: {item.team_bonus}</p>
             <p>Battle Score: {item.battlescore}</p>
-            <table>
-            <tr> 
-                    <td> Spécificités : </td>
+            
+                    <ul> Spécificités : </ul>
 
                     {item.civilization_bonus.map((bonus) => {
                 
                 
                 return (
-                    <>
-                    
-                    <td>{bonus}</td>
-                    <td>/</td>
-                    </>
+                    <li>{bonus}</li>
         )       
         })}
-                     </tr>
-                </table>
+                
 
             
         </div>
