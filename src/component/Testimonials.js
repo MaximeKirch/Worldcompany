@@ -24,27 +24,32 @@ function Testimonials() {
                         <p className='testimonialText'>Grace à BattleChanger Henri VI a connu la défaite à Castillon</p>
                             <div className='profileTestimonial'>
                                 <img id="avatar" src={charles7} alt=""/>
-                                <span>Charles VII - </span>
+                                <span className="vainqueur">Charles VII - </span>
                                 <span> 1453</span>
+                                
                             </div>
+                            <div>⚔️ ⚔️ ⚔️</div>
                     </div>
-                    
+
+                                        
                     <div className='testimonialContainer'>
                         <p className='testimonialText'>Nous avons gagné à Bouvines contre l'empereur Otton IV !!!! Heureusement qu'il n'utilisait pas BattleChanger !</p>
                             <div className='profileTestimonial'>
                                 <img id="avatar" src={philippeAuguste} alt=""/>
-                                <span>Philippe Auguste - </span>
+                                <span className="vainqueur">  Philippe Auguste - </span>
                                 <span> 1214</span>
                             </div>
+                    <div>⚔️ ⚔️ ⚔️</div>
                     </div>
 
                     <div className='testimonialContainer'>
                         <p className='testimonialText'>Nous n'aurions jamais gagné Hastings sans BattleChanger ! L'Angleterre est à nous !</p>
                             <div className='profileTestimonial'>
                                 <img id="avatar" src={guillaumeNormandie} alt=""/>
-                                <span>Guillaume de Normandie - </span>
+                                <span className="vainqueur">Guillaume de Normandie - </span>
                                 <span> 1066</span>
                             </div>
+                    <div>⚔️ ⚔️ ⚔️</div>
                     </div>
 
                     
