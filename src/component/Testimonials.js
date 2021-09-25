@@ -10,29 +10,32 @@ function Testimonials() {
         <div id= 'testimonialTitle'>
         <h2>Ils se sont informés : </h2>
         </div>
-            <div className='testimonialMain'>
-                
-                <div className='testimonialContainer'>
-                    <p className='testimonialText'>Nous avons gagné à Bouvines contre l'empereur Otton IV !!!! Heureusement qu'il n'utilisait pas BattleChanger !</p>
-                        <div className='profileTestimonial'>
-                            <img id="avatar" src={philippeAuguste} alt=""/>
-                            <p>Philipe Auguste - 1214</p>
-                        </div>
-                </div>
+                <div className='testimonialMain'>
+                    
+                    <div className='testimonialContainer'>
+                        <p className='testimonialText'>Nous avons gagné à Bouvines contre l'empereur Otton IV !!!! Heureusement qu'il n'utilisait pas BattleChanger !</p>
+                            <div className='profileTestimonial'>
+                                <img id="avatar" src={philippeAuguste} alt=""/>
+                                <p>Philipe Auguste</p>
+                                <p>1214</p>
+                            </div>
+                    </div>
 
-                <div className='testimonialContainer'>
-                    <p className='testimonialText'>Nous n'aurions jamais gagné Hastings sans BattleChanger ! L'Angleterre est à nous !</p>
-                        <div className='profileTestimonial'>
-                            <img id="avatar" src={guillaumeNormandie} alt=""/>
-                            <p>Guillaume de Normandie - 1066</p>
-                        </div>
-                </div>
-                
-                
-        
+                    <div className='testimonialContainer'>
+                        <p className='testimonialText'>Nous n'aurions jamais gagné Hastings sans BattleChanger ! L'Angleterre est à nous !</p>
+                            <div className='profileTestimonial'>
+                                <img id="avatar" src={guillaumeNormandie} alt=""/>
+                                <p>Guillaume de Normandie</p>
+                                <p>1066</p>
+                            </div>
+                    </div>
+                    
+                    
             
-            </div>
-        
+                
+                </div>
+            
+            
         
         </>
 
