@@ -8,16 +8,18 @@ isShowing
 ? ReactDom.createPortal( 
         <>
         <div className="formContainer">
+            
                 <form>
+                <button onclick={() => hide()}> X </button>
                     <label id='contact'>Contactez-nous !</label>
 
                     <div className='formInfos'>
                         <label>Nom :</label>
-                        <input placeholder='Richard Coeur de Lion' required></input>
+                        <input placeholder='Richard Coeur de Lion'></input>
                         <label>Sujet :</label>
-                        <input placeholder='Sujet' required></input>
+                        <input placeholder='Sujet' ></input>
                         <label>Votre message :</label>
-                        <textarea placeholder='Simplement une petite suggestion...' rows="20" required></textarea>
+                        <textarea placeholder='Simplement une petite suggestion...' rows="20" ></textarea>
 
                         <button id='formBtn' type='submit' onclick={() => alert('Merci pour votre message !')}>Envoyer</button>
 

@@ -57,7 +57,7 @@
   position: absolute;
   z-index: 99;
   top: 0;
-
+  right: -1;
   
 }
 
@@ -148,19 +148,27 @@
   position: absolute;
   z-index: 99;
   left: 0;
-  margin-left: 10px;
+  margin-left: 20px;
  
 }
 
 .modal-toggle > button {
   height: 30px;
   width: 80px;
-  background: var(--rose-Dawn);
+  background: var(--mellow-Buff);
+  font-family: var(--secondary-font);
+  font-size: 18 px;
   border-radius: 20px;
   border:none;
   top: 0;
   bottom: 0;
   
+}
+
+.modal-toggle > button:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  opacity: 0.9;
 }
 /* INDEX OF CSS FILE */ 
 
