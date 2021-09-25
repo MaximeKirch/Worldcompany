@@ -16,7 +16,7 @@ export default function Logo() {
         </div>
 
         <div className="modal-toggle">
-            <button onClick={toggle}>Show modal</button>
+            <button onClick={toggle}>Contact</button>
 
             <Contact isShowing={isShowing} hide={toggle} />
         </div>
