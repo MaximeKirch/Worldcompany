@@ -17,13 +17,24 @@ const Civilization = (props) => {
                 <h2>{item.name}</h2>
             
             </div>
-            <p>Population: {item.population}</p>
-            <p>Monnaie: {item.currency}</p>
-            <p>Type d'armée: {item.army_type}</p>
-            <p>Unité d'élite: {item.unique_unit}</p>
-            <p>Meilleure techno: {item.unique_tech}</p>
-            <p>Point fort: {item.team_bonus}</p>
-            <p>Battle Score: {item.battlescore}</p>
+            <div className="infoBlock">
+
+                <div className="blockLeft">
+                <p>Population: {item.population}</p>
+                <p>Monnaie: {item.currency}</p>
+                <p>Type d'armée: {item.army_type}</p>
+                </div>
+
+                <div className="blockRight">
+                <p>Unité d'élite: {item.unique_unit}</p>
+                <p>Meilleure techno: {item.unique_tech}</p>
+                <p>Point fort: {item.team_bonus}</p>
+                </div>
+                
+
+            </div>
+
+                    <p>Battle Score: {item.battlescore}</p>
             
                     <ul> Spécificités : </ul>
 
