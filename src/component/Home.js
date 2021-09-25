@@ -15,6 +15,7 @@ import {
   Route,
   Link
 } from "react-router-dom"
+import CivilizationList from "./CivilizationList";
 
 
 function Home() {
@@ -29,6 +30,7 @@ function Home() {
         <Palette/>
         <Header/>
         <Map/>
+        <CivilizationList />
         <Testimonials/>
       </div>
       <Footer/>
