@@ -402,7 +402,7 @@
     height: 100px;
     padding: 10px 0px;
     border-radius: 10px;
-    justify-content: space-around;
+    justify-content: center;
     background: rgba(175,164,206,0.4);
   }
 
