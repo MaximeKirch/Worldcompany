@@ -31,9 +31,7 @@
   padding: 0;
 }
 
-.App {
 
-}
 
 .centerContainer {
   width: auto;
@@ -140,6 +138,12 @@
   background: white;
   border-radius: 25px;
 }
+
+.modal-toggle {
+  position: absolute;
+  z-index: 99;
+  top: 0;
+}
 /* INDEX OF CSS FILE */ 
 
 /* 1. Root */
@@ -241,7 +245,6 @@
     font-family: var(--primary-font);
     font-weight: 700;
     font-size: 32px;
-    color: var(--);
     
   }
   
@@ -352,7 +355,6 @@
   }
 
   .testimonialText {
-    color: ;
     font: var(--secondary-font);
     font-weight: 400;
     font-style: italic;

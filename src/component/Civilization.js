@@ -1,4 +1,5 @@
 import React from 'react';
+import CivilizationList from './CivilizationList'
 
 const Civilization = (props) => {
 
