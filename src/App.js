@@ -9,6 +9,8 @@ import Testimonials from './component/Testimonials';
 import Footer from './component/Footer';
 import Contact from './component/Contact';
 import Logo from './component/Logo';
+import InfoCiv from './component/InfoCiv';
+
 
 
 
@@ -21,6 +23,7 @@ function App() {
         <Palette/>
         <Header/>
         <Map/>
+        <InfoCiv/>
         <Testimonials/>
         <Contact />
       </div>
