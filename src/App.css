@@ -423,6 +423,8 @@
     font-weight: 400;
     font-style: italic;
     font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 
   
@@ -493,8 +495,8 @@
 }
 
 .infoHeader img {
-  width:20%;
-  height: 20%;
+  width:50%;
+  height: 50%;
 }
 
 .infoContent select {
