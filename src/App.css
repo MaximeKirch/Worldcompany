@@ -21,6 +21,9 @@
   --mellow-Buff: rgb(215,184,153);
   }
 
+  body{
+      background-color: var(--mellow-Buff);
+  }
 
 /* INDEX */ 
 
@@ -125,7 +128,7 @@
   justify-content: center;
   align-items: center;
   height: 100px;
-  background:rgba(51, 51, 51, 1)
+  background:var(--burnt-Henna)
 }
 
 .logoContainer > h1 {
@@ -335,10 +338,28 @@
 /* -------------------------------------------------------------------------------------------------- */
 
 /* 5. Map */
+
+#mapTitle {
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    font-family: var(--primary-font);
+    font-size: 32px;
+    text-align: center;
+    background:var(--burnt-Henna);
+    color: var(--mellow-Buff);
+    align-content: center;
+    justify-content: center;
+  
+  }
+
 .backgroundImage {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    margin-bottom: 50px;
+    margin-top: 25px;
+
   }
   
   #hero {
@@ -368,11 +389,11 @@
     display: flex;
     flex-direction: column;
     width: 80%;
-    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     border-top: 0.5px solid rgba(245,223,77,0.3);
     border-bottom: 0.5px solid rgba(245,223,77,0.3);
-    margin-top: 100px;
+    margin-top: 25px;
     padding-bottom: 10px;
     text-align: center;
   }
@@ -381,17 +402,20 @@
     font: var(--secondary-font);
     font-weight: 400;
     font-style: italic;
-    font-size: 24px;
+    font-size: 25px;
   }
 
   
 
   .profileTestimonial {
     display: flex;
-    width: 250px;
+    
+    align-items: center;
+    width: 500px;
+    height: auto;
     padding: 10px 0px;
     border-radius: 10px;
-    justify-content: space-around;
+    justify-content: center;
     background: rgba(175,164,206,0.4);
   }
 
@@ -402,13 +426,13 @@
   }
 
   #testimonialTitle {
-    width: 50%;
+    width: 100%;
     height: 80px;
     margin-top: 20px;
     font-family: var(--primary-font);
     font-size: 32px;
     text-align: center;
-    background:rgba(51, 51, 51, 1);
+    background:var(--burnt-Henna);
     color: var(--mellow-Buff);
     align-content: center;
     justify-content: center;
@@ -465,7 +489,7 @@
   }
   
   .footerMain{
-    background-color: rgba(51, 51, 51, 1);
+    background-color: var(--burnt-Henna);
     width: 100%;
     border-top: solid 1px black;
     color: var(--mellow-Buff);
