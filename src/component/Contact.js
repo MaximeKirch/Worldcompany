@@ -7,7 +7,6 @@ const Contact = ({isShowing, hide}) =>
 isShowing 
 ? ReactDom.createPortal( 
         <>
-        <Logo />
         <div className="formContainer">
                 <form>
                     <label id='contact'>Contactez-nous !</label>
