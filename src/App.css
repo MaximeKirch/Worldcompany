@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Imports */
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&family=Source+Sans+Pro:wght@300;400;700&display=swap');
@@ -105,3 +106,346 @@
   width: auto;
   margin: 0px 4px;
 }
+=======
+/* INDEX OF CSS FILE */ 
+
+/* 1. Root */
+/* 2. Palette */
+/* 3. NavBar */
+/* 4. Header */
+/* 5. Map */
+
+/* 1 Root*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Source+Sans+Pro:wght@300;400&display=swap');
+
+:root {
+
+    --primary-font: 'Playfair Display', serif;;
+    --secondary-font: 'Source Sans Pro', sans-serif;
+
+    
+  
+    --living-Coral: rgb(243,111,99);
+    --burnt-Henna: rgb(127,58,50);
+    --rose-Dawn: rgb(194,137,124);
+    --coral-Sands: rgb(239,172,135);
+    --sunkist-Coral: rgb(234,104,118);
+    --candlelight-Peach: rgb(248,162,157);
+    --sand: rgb(207,171,127);
+    --mellow-Buff: rgb(215,184,153);
+    }
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* 2 Palette*/
+.paletteContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+    
+}
+
+.paletteName{
+    color: white;
+    width: 70px;
+    height: 50px;
+    background-color: black;
+    margin: 15px;
+    padding: 15px;
+}
+
+#living-Coral{
+    background-color: var(--living-Coral);
+}
+
+#burnt-Henna{
+    background-color: var(--burnt-Henna);
+}
+
+#rose-Dawn{
+    background-color: var(--rose-Dawn);
+}
+
+#coral-Sands{
+    background-color: var(--coral-Sands);
+}
+
+#sunkist-Coral{
+    background-color: var(--sunkist-Coral);
+}
+
+#candlelight-Peach{
+    background-color: var(--candlelight-Peach);
+}
+
+#sand{
+    background-color: var(--sand);
+}
+
+#mellow-Buff{
+    background-color: var(--mellow-Buff);
+}
+
+
+
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* 3. NavBar */
+
+.navBar{
+    background-color: white;
+    border-bottom: solid 1px black;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    
+  }
+  
+  .navMenu {
+    display: inline-flex;
+    justify-content: center;
+  }
+  
+  
+  
+  #title {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--);
+    
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--);
+  }
+  
+  
+  
+  #logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+    margin-right: 2px;
+    margin-top: 15px;
+  }
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* 4. Header */
+.HeaderContainer {
+    display: flex;
+    width: auto;
+    flex-wrap: nowrap;
+    
+  }
+  
+  
+  .HeaderTitle {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    color: var(--ultimate-Gray);
+    font-family: var(--primary-font);
+    font-size: 24px;
+  }
+  
+  .Header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .pHeader {
+  text-align: justify;
+  width: 80%;
+  font-family:var(--secondary-font);
+  font-weight: 400;
+  }
+  
+  #mHeader{
+      background-color:var(--light-illuminating);
+      color: var(--ultimate-Gray);
+      padding: 20px;
+  }
+
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* 5. Map */
+.backgroundImage {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  #hero {
+    position: relative;
+    width: 100%;
+    max-width: auto;
+    max-height: auto;
+    height: auto;
+    z-index: -1;
+  }
+  
+  
+  
+  
+/* -------------------------------------------------------------------------------------------------- */
+
+/* 6. Testimonials Component */
+
+
+  .testimonialMain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .testimonialContainer {
+    display: flex;
+    flex-direction: ;
+    width: 80%;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-top: 0.5px solid rgba(245,223,77,0.3);
+    border-bottom: 0.5px solid rgba(245,223,77,0.3);
+    margin-top: 100px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .testimonialText {
+    color: ;
+    font: var(--secondary-font);
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+  }
+
+  
+
+  .profileTestimonial {
+    display: flex;
+    width: 250px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    justify-content: space-around;
+    background: rgba(175,164,206,0.4);
+  }
+
+  .profileTestimonial p {
+    color: var(--illuminating);
+    font-family: var(--secondary-font);
+    font-weight: 300;
+  }
+
+  #avatar {
+    border-radius: 25px;
+    width: 50px;
+    height: auto;
+  }
+
+
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* */
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* */
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* */
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* */
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* */
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* */
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* Z.Footer */
+.footerContainer{
+    display :flex;
+    justify-content: center;
+    bottom: 0;
+  }
+  
+  .footerRow{
+    display :flex;
+    justify-content: space-around ;  
+    width: 50%;
+  }
+  
+  .footerMain{
+    background-color: white;
+    width: 100%;
+    border-top: solid 1px black;
+  }
+  
+  .footerNoRow{
+    justify-content: center;
+    padding : 20px;
+    }
+  
+  .lastFooter{
+    text-align: center;
+    
+  }
+  
+  .footerList{
+    list-style: none;
+    text-align: left;
+    padding: 0;
+  }
+  
+  .col{
+    margin: 20px;
+  }
+  
+  .hrFooter{
+    border :0;
+    height: 1px;
+  background-color : var(--illuminating);
+  }
+  
+  i{
+    background-color : var(--illuminating);
+  }
+  
+    
+  .footerList{
+    line-height: 2;
+    font-family: var(--secondary-font);
+  }
+  
+  .h3Footer{
+    font-family: var (--primary-font);
+    text-align: center;
+  }
+  
+  /* -------------------------------------------------------------------------------------------------- */
+>>>>>>> 4578ec0b3f3354d9dd6544495b19ace1c2319580
