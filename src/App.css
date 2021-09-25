@@ -493,8 +493,16 @@
 }
 
 .infoHeader img {
-  width:5%;
-  height: 5%;
+  width:20%;
+  height: 20%;
+}
+
+.infoContent select {
+  width: 20%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-color: var(--burnt-Henna);
 }
 
 /* -------------------------------------------------------------------------------------------------- */
