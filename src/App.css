@@ -31,9 +31,7 @@
   padding: 0;
 }
 
-.App {
 
-}
 
 .centerContainer {
   width: auto;
@@ -247,7 +245,6 @@
     font-family: var(--primary-font);
     font-weight: 700;
     font-size: 32px;
-    color: var(--);
     
   }
   
@@ -355,7 +352,6 @@
   }
 
   .testimonialText {
-    color: ;
     font: var(--secondary-font);
     font-weight: 400;
     font-style: italic;
