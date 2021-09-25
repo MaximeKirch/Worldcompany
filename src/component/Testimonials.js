@@ -22,7 +22,7 @@ function Testimonials() {
                 <div className='testimonialMain'>
 
                 <div className='testimonialContainer'>
-                        <p className='testimonialText'>Grace à BattleChanger Henri VI a connu la défaite à Castillon</p>
+                        <p className='testimonialText'>"Grace à BattleChanger j'ai eu le dernier mot à Castillon"</p>
                             <div className='profileTestimonial'>
                                 <img id="avatar" src={charles7} alt=""/>
                                 <span className="vainqueur">Charles VII - </span>
@@ -34,7 +34,7 @@ function Testimonials() {
 
                                         
                     <div className='testimonialContainer'>
-                        <p className='testimonialText'>Nous avons gagné à Bouvines contre l'empereur Otton IV !!!! Heureusement qu'il n'utilisait pas BattleChanger !</p>
+                        <p className='testimonialText'>"Nous avons gagné à Bouvines contre l'empereur Otton IV !!!! Heureusement qu'il n'utilisait pas BattleChanger !"</p>
                             <div className='profileTestimonial'>
                                 <img id="avatar" src={philippeAuguste} alt=""/>
                                 <span className="vainqueur">  Philippe Auguste - </span>
@@ -44,7 +44,7 @@ function Testimonials() {
                     </div>
 
                     <div className='testimonialContainer'>
-                        <p className='testimonialText'>Nous n'aurions jamais gagné Hastings sans BattleChanger ! L'Angleterre est à nous !</p>
+                        <p className='testimonialText'>"Nous n'aurions jamais gagné Hastings sans BattleChanger ! L'Angleterre est à nous !"</p>
                             <div className='profileTestimonial'>
                                 <img id="avatar" src={guillaumeNormandie} alt=""/>
                                 <span className="vainqueur">Guillaume de Normandie - </span>
@@ -54,7 +54,7 @@ function Testimonials() {
                     </div>
 
                     <div className='testimonialContainer'>
-                        <p className='testimonialText'>Avec Battle changer nous n'aurions jamais fini en slip et en Slowmotion dans un film</p>
+                        <p className='testimonialText'>"Avec Battle changer nous n'aurions jamais fini en slip et en Slowmotion dans un film"</p>
                             <div className='profileTestimonial'>
                                 <img id="avatar" src={leonidas} alt=""/>
                                 <span className="vainqueur">Léonidas - </span>
