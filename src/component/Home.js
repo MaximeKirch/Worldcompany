@@ -9,6 +9,7 @@ import Testimonials from './/Testimonials';
 import Footer from './Footer';
 import Contact from './Contact';
 import Logo from './Logo';
+import Bandeau from "./Bandeau";
 import {
   BrowserRouter as Router,
   Switch,
@@ -26,6 +27,7 @@ function Home() {
     <div className='App'>
       <Logo />
       <div className="centerContainer">
+        <Bandeau/>
         {/* <NavBar/> */}
         {/* <Palette/> */}
         <Header/>

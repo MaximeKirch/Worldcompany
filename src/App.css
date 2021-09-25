@@ -469,7 +469,29 @@
 
 /* -------------------------------------------------------------------------------------------------- */
 
-/* */
+/* 7. Civilization List component*/
+
+.infoContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.infoHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.infoHeader img {
+  width:5%;
+  height: 5%;
+}
 
 /* -------------------------------------------------------------------------------------------------- */
 
@@ -489,8 +511,28 @@
 
 /* -------------------------------------------------------------------------------------------------- */
 
-/* */
-
+/* Bandeau */
+.bandeauHeader {
+    position: relative;
+    Height: 300px;
+    background-image: linear-gradient(#7F3A32,#CFAB7F );
+  }
+  
+  .bandeauH1 {
+    padding: 100px 0;
+    font: 44px;
+    font-family: var(--primary-font);
+    text-align: center;
+    color: var(--mellow-Buff);
+  }
+  
+    
+  Svg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+  }
 /* -------------------------------------------------------------------------------------------------- */
 
 /* Z.Footer */
