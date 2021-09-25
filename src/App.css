@@ -1,38 +1,107 @@
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&family=Source+Sans+Pro:wght@300;400;700&display=swap');
+
+/* Variables */
+:root{
+--primary-font: 'Playfair Display';
+--secondary-font: 'Source Sans Pro';
+--background-color: rgba(51,51,51, 0.6);
+}
+
+/* INDEX */ 
+
+/* 1. App */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
+  background-color: var(--background-color);
+}
+
+
+/*-------------------------------------------------------*/
+/* N. Contact */
+
+.formContainer {
+  display: flex;
+  width: auto;
+  justify-content: center;
+  font-family: var(--secondary-font);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.formContainer > form {
+  width: 300px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.formContainer > label {
+  height: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+#contact {
+  font-size: 24px;
+}
+
+.formInfos {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-content: center;
+}
+
+.formInfos > label{
+  font-family:var(--secondary-font);
+  font-size: 18px;
+  margin: 4px 0px;
+}
+
+.formInfos > input {
+  height: 20px;
+}
+
+#formBtn {
+  margin-top: 10px;
+  height: 30px;
+  width: auto;
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  transition: all 0s;
+}
+
+#formBtn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: rgba(51, 51, 51, 0.7);
+  color: rgba(255,255,255);
+  border: none;
+}
+
+
+
+
+/*-------------------------------------------------------*/
+/* N. Logo */
+
+.logoContainer {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.logoContainer > h1 {
+  font-family: var(--primary-font);
+  font-size: 48px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#logo{
+  height: 50px;
+  width: auto;
+  margin: 0px 4px;
 }
