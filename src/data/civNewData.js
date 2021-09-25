@@ -5,8 +5,17 @@ export const civNewData = [
         name: "Aztecs",
         population:"6 000 000", 
         currency:"quauhtli",
-        img_url:"../blasons/CivIcon-Aztecs.png",
+        img_url:"https://static.wikia.nocookie.net/ageofempires/images/0/0c/CivIcon-Aztecs.png",
         battlescore: "D",
+        unique_unit: "Jaguar Warrior",
+        unique_tech: "Garland Wars",
+        team_bonus: "Relics generate +33% gold",
+        civilization_bonus: [
+            "Villagers carry +5",
+            "Military units created 15% faster",
+            "+5 Monk hit points for each Monastery technology",
+            "Loom free"
+            ]
         },
 
     {
@@ -14,7 +23,7 @@ export const civNewData = [
         name: "Britons",
         population:"2 500 000", 
         currency:"pound",
-        img_url:"../blasons/CivIcon-Britons.png",
+        img_url:"https://static.wikia.nocookie.net/ageofempires/images/a/ae/CivIcon-Britons.png",
         battlescore: "B",
         },
 
@@ -23,7 +32,7 @@ export const civNewData = [
         name: "Byzantines",
         population:"9 000 000", 
         currency:"solidus",
-        img_url:"../blasons/CivIcon-Byzantines.png",
+        img_url:"https://static.wikia.nocookie.net/ageofempires/images/2/27/CivIcon-Byzantines.png",
         battlescore: "D",
         },
 
@@ -33,7 +42,7 @@ export const civNewData = [
         expansion: "Age of Kings",
         population:" 500 000", 
         currency:"statère",
-        img_url:"../blasons/CivIcon-Celts.png",
+        img_url:"https://static.wikia.nocookie.net/ageofempires/images/5/59/CivIcon-Celts.png",
         battlescore: "C",
         },
 
@@ -42,7 +51,7 @@ export const civNewData = [
         name: "Chinese",
         population:"103 000 000", 
         currency:"bei",
-        img_url:"../blasons/CivIcon-Chinese.png",
+        img_url:"https://static.wikia.nocookie.net/ageofempires/images/c/cc/CivIcon-Chinese.png",
         battlescore: "A",
         },
 
