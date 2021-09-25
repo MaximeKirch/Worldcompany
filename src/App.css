@@ -21,6 +21,9 @@
   --mellow-Buff: rgb(215,184,153);
   }
 
+  body{
+      background-color: var(--mellow-Buff);
+  }
 
 /* INDEX */ 
 
@@ -125,7 +128,7 @@
   justify-content: center;
   align-items: center;
   height: 100px;
-  background:rgba(51, 51, 51, 1)
+  background:var(--burnt-Henna)
 }
 
 .logoContainer > h1 {
@@ -335,7 +338,7 @@
     font-family: var(--primary-font);
     font-size: 32px;
     text-align: center;
-    background:rgba(51, 51, 51, 1);
+    background:var(--burnt-Henna);
     color: var(--mellow-Buff);
     align-content: center;
     justify-content: center;
@@ -347,6 +350,7 @@
     justify-content: center;
     align-items: flex-start;
     margin-bottom: 50px;
+    margin-top: 25px;
 
   }
   
@@ -397,9 +401,10 @@
 
   .profileTestimonial {
     display: flex;
+    
     align-items: center;
-    width: 250px;
-    height: 100px;
+    width: 500px;
+    height: auto;
     padding: 10px 0px;
     border-radius: 10px;
     justify-content: center;
@@ -419,7 +424,7 @@
     font-family: var(--primary-font);
     font-size: 32px;
     text-align: center;
-    background:rgba(51, 51, 51, 1);
+    background:var(--burnt-Henna);
     color: var(--mellow-Buff);
     align-content: center;
     justify-content: center;
@@ -476,7 +481,7 @@
   }
   
   .footerMain{
-    background-color: rgba(51, 51, 51, 1);
+    background-color: var(--burnt-Henna);
     width: 100%;
     border-top: solid 1px black;
     color: var(--mellow-Buff);
