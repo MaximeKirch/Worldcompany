@@ -4,7 +4,7 @@ import '../App.css'
 function Header() {
     return(
     <>
-        <h2 className="HeaderTitle">NOUS, LA WORLD COMPANY</h2>
+        <h2 className="HeaderTitle">Battle Changer ⚔️</h2>
         
         <div className="HeaderContainer">
             
@@ -12,23 +12,21 @@ function Header() {
             <div className="Header">
 
             <p className="pHeader">
-             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-            ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+             Vous êtes-vous déjà demandé si le cours des batailles historiques aurait pu être changé ? Ou encore prévisible ? 
+             Vous êtes-vous déjà renseigné sur vos voisins ? Sans succès malgré des sommes conséquentes d'argent investies en espions, ragots et informations en tout genre ? <br/> <br/>
+
+            Pas d'inquiétude ! La World Company met à votre disposition cette encyclopédie éducative.<br/><br/>
+             Il est désormais possible de planifier et de mieux connaître votre voisin grâce à Battle Changer ! 
             </p>
 
             <p className="pHeader" id="mHeader">
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Que vous soyez le dernier roi Franc au pouvoir, le chef d'une tribu barbare ou encore un empereur (il)légitime, vous aurez désormais accès à une encyclopédie d'informations concernant vos voisins. 
+            Qu'ils soient frontaliers ou à l'autre bout du monde, n'hésitez pas à vous renseigner à leur sujet !
             </p>
 
-            <p className="pHeader"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-            ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+            <p className="pHeader"> 
+            Bien entendu, n'oubliez pas que cet outil est avant tout mis en place dans le but de maintenir la paix et à titre informatif. World Company s'écarte de toute responsabilité dans le cas d'une utilisation telle que : 
+            préparer un coup perfide, une invasion éclair ou encore trouver une brèche dans le mur de votre voisin qui n'aurait pas découvert la technologie adéquate ! <span className="emoji">🤷‍♂️😇</span> 
             </p>
 
             </div>

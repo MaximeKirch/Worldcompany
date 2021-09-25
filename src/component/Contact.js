@@ -13,11 +13,11 @@ export default function Contact() {
 
                     <div className='formInfos'>
                         <label>Nom :</label>
-                        <input></input>
+                        <input placeholder='Richard Coeur de Lion' required></input>
                         <label>Sujet :</label>
-                        <input></input>
+                        <input placeholder='Sujet' required></input>
                         <label>Votre message :</label>
-                        <textarea rows="20"></textarea>
+                        <textarea placeholder='Simplement une petite suggestion...' rows="20" required></textarea>
 
                         <button id='formBtn' type='submit' onclick={() => message}>Envoyer</button>
 

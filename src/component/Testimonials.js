@@ -7,7 +7,11 @@ function Testimonials() {
 
     return(
         <>
+        <div id= 'testimonialTitle'>
+        <h2>Ils se sont informés : </h2>
+        </div>
             <div className='testimonialMain'>
+                
                 <div className='testimonialContainer'>
                     <p className='testimonialText'>Nous avons gagné à Bouvines contre l'empereur Otton IV !!!! Heureusement qu'il n'utilisait pas BattleChanger !</p>
                         <div className='profileTestimonial'>
