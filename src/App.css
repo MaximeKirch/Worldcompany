@@ -514,7 +514,7 @@
 /* Bandeau */
 .bandeauHeader {
     position: relative;
-    Height: 300px;
+    height: 300px;
     background-image: linear-gradient(#7F3A32,#CFAB7F );
   }
   
