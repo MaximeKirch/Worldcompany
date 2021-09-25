@@ -7,6 +7,7 @@ export const civNewData = [
         currency:"quauhtli",
         img_url:"https://static.wikia.nocookie.net/ageofempires/images/0/0c/CivIcon-Aztecs.png",
         battlescore: "D",
+        army_type: "Infantry & Monk",
         unique_unit: "Jaguar Warrior",
         unique_tech: "Garland Wars",
         team_bonus: "Relics generate +33% gold",
@@ -25,6 +26,15 @@ export const civNewData = [
         currency:"pound",
         img_url:"https://static.wikia.nocookie.net/ageofempires/images/a/ae/CivIcon-Britons.png",
         battlescore: "B",
+        army_type: "Foot Archer",
+        unique_unit: "Longbowman",
+        unique_tech: "Yeomen",
+        team_bonus: "Archery Ranges work 20% faster",
+        civilization_bonus: [
+            "Town Centers cost -50% wood upon reaching the Castle Age",
+            "Foot archers (excluding Skirmishers) have +1 range in Castle Age and +1 in Imperial Age (for +2 total)",
+            "Shepherds work 25% faster"
+            ]
         },
 
     {
