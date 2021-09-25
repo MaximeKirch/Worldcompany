@@ -1,6 +1,6 @@
 
 import './App.css';
-import Test from './component/Test';
+
 import Palette from './component/Palette';
 import NavBar from './component/NavBar';
 import Header from './component/Header';
