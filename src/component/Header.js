@@ -15,8 +15,8 @@ function Header() {
              Vous êtes-vous déjà demandé si le cours des batailles historiques aurait pu être changé ? Ou encore prévisible ? 
              Vous êtes-vous déjà renseigné sur vos voisins ? Sans succès malgré des sommes conséquentes d'argent investies en espions, ragots et informations en tout genre ? <br/> <br/>
 
-            Pas d'inquiétude ! La World Company met à votre disposition cette encyclopédie éducative.<br/><br/>
-             Il est désormais possible de planifier et de mieux connaître votre voisin grâce à Battle Changer ! 
+            <div id="oklm"> Pas d'inquiétude ! La World Company met à votre disposition cette encyclopédie éducative.<br/><br/>
+             Il est désormais possible de planifier et de mieux connaître votre voisin grâce à Battle Changer ! </div>
             </p>
 
             <p className="pHeader" id="mHeader">

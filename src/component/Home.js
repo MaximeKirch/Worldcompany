@@ -29,7 +29,7 @@ function Home() {
       <div className="centerContainer">
         <Bandeau/>
         {/* <NavBar/> */}
-        <Palette/>
+        {/* <Palette/> */}
         <Header/>
         <Map/>
         <CivilizationList />

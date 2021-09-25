@@ -61,7 +61,7 @@
   position: absolute;
   z-index: 99;
   top: 0;
-
+  right: -1;
   
 }
 
@@ -152,19 +152,29 @@
   position: absolute;
   z-index: 99;
   left: 0;
-  margin-left: 10px;
+  margin-left: 20px;
  
 }
 
 .modal-toggle > button {
-  height: 30px;
-  width: 80px;
-  background: var(--rose-Dawn);
+  height: 40px;
+  width: 100px;
+  background: var(--living-Coral);
+  color: white;
+  font-family: var(--secondary-font);
+  font-size: 20px;
+  font-weight: 700;
   border-radius: 20px;
   border:none;
   top: 0;
   bottom: 0;
   
+}
+
+.modal-toggle > button:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  opacity: 0.9;
 }
 /* INDEX OF CSS FILE */ 
 
@@ -291,8 +301,8 @@
 .HeaderContainer {
     display: flex;
     width: auto;
-    flex-wrap: nowrap;
     margin-top: 20px;
+    margin-bottom: 50px;
     
   }
   
@@ -303,7 +313,7 @@
     justify-content: center;
     color: var(--ultimate-Gray);
     font-family: var(--primary-font);
-    font-size: 40px;
+    font-size: 80px;
   }
   
   .Header {
@@ -325,6 +335,14 @@
       background-color:var(--light-illuminating);
       color: var(--ultimate-Gray);
       padding: 20px;
+  }
+  
+  #oklm {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-weight: 700;
+      justify-content: center;
+      text-align: center;
   }
 
 
@@ -362,6 +380,11 @@
     max-height: auto;
     height: auto;
     z-index: -1;
+  }
+
+  #mapTitle {
+    width: 75%;
+    margin-left: 12%;
   }
   
   
@@ -419,7 +442,8 @@
   }
 
   #testimonialTitle {
-    width: 100%;
+    width: 75%;
+    margin-left: 12%;
     height: 80px;
     margin-top: 20px;
     font-family: var(--primary-font);
@@ -438,6 +462,8 @@
     height: auto;
     
   }
+
+ 
 
 
 
