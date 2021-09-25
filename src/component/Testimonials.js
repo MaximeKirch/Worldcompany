@@ -22,7 +22,7 @@ function Testimonials() {
                 <div className='testimonialMain'>
 
                 <div className='testimonialContainer'>
-                        <p className='testimonialText'>"Grace à BattleChanger j'ai eu le dernier mot à Castillon"</p>
+                        <p className='testimonialText'>Grace à BattleChanger Henri VI a connu la défaite à Castillon.</p>
                             <div className='profileTestimonial'>
                                 <img id="avatar" src={charles7} alt=""/>
                                 <span className="vainqueur">Charles VII - </span>
@@ -54,7 +54,11 @@ function Testimonials() {
                     </div>
 
                     <div className='testimonialContainer'>
+<<<<<<< HEAD
                         <p className='testimonialText'>"Avec Battle changer nous n'aurions jamais fini en slip et en Slowmotion dans un film"</p>
+=======
+                        <p className='testimonialText'>Avec Battle Changer nous n'aurions jamais fini en slip et en Slowmotion dans un film...</p>
+>>>>>>> 393365a3fb5e9c2a00f6777eb1b00e73824e2618
                             <div className='profileTestimonial'>
                                 <img id="avatar" src={leonidas} alt=""/>
                                 <span className="vainqueur">Léonidas - </span>
