@@ -4,7 +4,7 @@ import '../App.css'
 function Header() {
     return(
     <>
-        <h2 className="HeaderTitle">Battle Changer ⚔️</h2>
+        
         
         <div className="HeaderContainer">
             

@@ -8,6 +8,9 @@ const Civilization = (props) => {
 
     return (
         <div>
+            
+        <div>
+            
             <div className="infoHeader">
 
                 <img src={item.img_url} alt="blason"/>
@@ -40,6 +43,7 @@ const Civilization = (props) => {
                 </table>
 
             
+        </div>
         </div>
     );
 };
