@@ -34,7 +34,7 @@ const Civilization = (props) => {
 
             </div>
 
-                    <p>Battle Score: {item.battlescore}</p>
+                    <p id='battleScore'>Battle Score: {item.battlescore}</p>
                 <div className="infoSpec">            
                     <ul> Spécificités : </ul>
 

@@ -493,8 +493,15 @@
 }
 
 .infoHeader img {
-  width:20%;
-  height: 20%;
+  width:50%;
+  height: 50%;
+}
+
+.infoHeader > h2 {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-style: italic;
+  font-size: 64px;
 }
 
 .infoContent select {
@@ -509,9 +516,17 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   margin-bottom: 20px;
   margin-top: 20px;
 
+}
+
+#battleScore {
+  font-size: 40px;
+  font-family: var(--primary-font);
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .blockLeft {
@@ -574,6 +589,10 @@
     font-family: var(--primary-font);
     text-align: center;
     color: var(--mellow-Buff);
+  }
+
+  .bandeau > h2 {
+    font-size: 42px;
   }
   
     
