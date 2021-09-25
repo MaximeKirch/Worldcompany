@@ -516,18 +516,31 @@
 
 .blockLeft {
   margin-right: 20px;
+  border-right: 2px dashed var(--burnt-Henna);
+  padding: 15px;
 }
 
 .infoCenter{
+  margin-top:20px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 2px solid var(--burnt-Henna);
+  border-radius: 25px;
+  box-shadow: 1px 1px 1px var(--burnt-Henna);
+  font-size: 1.5rem;
 }
 
 .infoSpec {
   display: flex;
   flex-direction: column;
   align-items: left;
+}
+
+.infoSpec ul {
+  margin-bottom: 5px;
+  text-decoration: underline;
 }
 /* -------------------------------------------------------------------------------------------------- */
 
