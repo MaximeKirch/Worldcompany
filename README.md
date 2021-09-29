@@ -1,3 +1,8 @@
+ Projet réalisé dans le cadre d'un Hackathon de 24h en équipe de trois  : 
+
+  - "Grâce à React, propulsez la technologie actuelle à une ère historique de votre choix. "
+ 
+ -----------------------------------------------------------------------------------
  - BATTLE CHANGER ⚔️
 
  Vous êtes un dirigeant de Royaume du Moyen-Âge et vous souhaitez vous renseigner sur vos voisins ? 
